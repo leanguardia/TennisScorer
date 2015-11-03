@@ -1,0 +1,36 @@
+<center>
+<h1>Game</h1>
+
+<br>
+
+<table>
+	<tr>
+		<td colspan='2'>
+			<h1><center><%=@@score.scorer%></center></h1>	
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<form method="post" action="p1scores">
+				<button type="submit">Player 1 scored</button>
+			</form>
+		</td>
+		<td>
+			<form method="post" action="p2scores">
+				<button type="submit">Player 2 scored</button>
+			</form>
+		</td>
+	</tr>
+
+	<tr>
+		<td colspan='2'>
+			<form method="post" action="reset">
+				<center><button type='submit'>Reset Score</button></center>
+			</form>
+		</td>
+	</tr>
+
+</table>
+</center>
+<br>
