@@ -1,7 +1,5 @@
 require 'sinatra'
-require 'D:\Sistemas\IngeSoft\Tennis_sinatra_cucumber\lib\tennis'
-
-
+require './lib/tennis.rb'
 
 
 get '/' do
